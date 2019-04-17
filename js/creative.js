@@ -188,12 +188,38 @@ $(document).ready(function() {
   });
   
 });
-
+var currentAttrValue="";
 //Open Modal
  $(document).ready(function() {
-	$('.org-chart .administration a').on('click', function(e)  {
-		var currentAttrValue = $(this).attr('href');
-    $('#Modal'+currentAttrValue).modal('show');
+	$('.member-details').on('click', function(e)  {
+		currentAttrValue = $(this).attr('Modal');
+    $('#Modal'+currentAttrValue).modal({backdrop: 'static', keyboard: false});
 		e.preventDefault();
 	});
+});
+
+
+
+$(window).ready(function(){
+  var ancho = screen.width;
+  if(ancho>767 && ancho<1001){
+    var element = document.getElementById("diamond");
+    element.classList.remove("col-md-8");
+    element.classList.add("col-md-11");
+  }
+});
+
+
+$(window).resize(function(){
+  var ancho = $(window).width(); 
+  if(ancho>767 && ancho<1001){
+    var element = document.getElementById("diamond");
+    element.classList.remove("col-md-8");
+    element.classList.add("col-md-11");
+  }
+   if(ancho>1001){
+    var element = document.getElementById("diamond");
+    element.classList.remove("col-md-11");
+    element.classList.add("col-md-8");
+  }
 });
