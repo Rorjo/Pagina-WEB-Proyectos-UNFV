@@ -1,6 +1,6 @@
-## Welcome to SEDIPRO UNFV web page
+## Welcome to Proyectos UNFV web page
 
-This is the first official SEDIPRO UNFV web page. We hope you love it!
+This is the first official Proyectos UNFV web page. We hope you love it!
 
 ![](https://img.shields.io/github/license/JoseLuis1197/sediproUnfvWeb.svg)
 ![](https://img.shields.io/badge/version-v0.0.0-brightgreen.svg)
@@ -8,7 +8,7 @@ This is the first official SEDIPRO UNFV web page. We hope you love it!
 ![](https://img.shields.io/github/stars/JoseLuis1197/sediproUnfvWeb.svg?style=social)
 ![](https://img.shields.io/github/issues/JoseLuis1197/sediproUnfvWeb.svg?style=social)
 
-### What is SEDIPRO UNFV?
+### What is Proyectos UNFV?
 
 We are a group of students and bachelors that want to participate in projects of [Universidad Nacional Federico Villarreal.](http://web2.unfv.edu.pe/sitio/) 
 
@@ -48,7 +48,7 @@ Only applying, at the moment, the next frameworks:
 
 #### Templates
 
-We really thank those templates that made SEDIPRO UNFV webpage possible:
+We really thank those templates that made Proyectos UNFV webpage possible:
 
  - [Startbootstrap-creative](https://github.com/BlackrockDigital/startbootstrap-creative)
  - [Fullcalendar IO](https://fullcalendar.io/)
